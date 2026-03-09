@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+out/
+.next/
+.serverless/
+
+# Debug and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor/OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test scripts
+test_*.js
+mock_*.js
